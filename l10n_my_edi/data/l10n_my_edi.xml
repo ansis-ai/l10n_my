@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- System Parameters for Zoom-->
+        <record id="l10n_my_edi.einvois_server_base_url" model="ir.config_parameter">
+            <field name="key">l10n_my_edi.einvois_server_base_url</field>
+            <field name="value">https://preprod-api.myinvois.hasil.gov.my</field>
+        </record>
+        <record id="l10n_my_edi.einvois_client_id" model="ir.config_parameter">
+            <field name="key">l10n_my_edi.einvois_client_id</field>
+            <field name="value">9NJ-HSp7RnWMKECGR3Iynw</field>
+        </record>
+        <record id="l10n_my_edi.einvois_client_secret_1" model="ir.config_parameter">
+            <field name="key">l10n_my_edi.einvois_client_secret_1</field>
+            <field name="value">0PERb1HcRSGGYLKqzQ8Rlg</field>
+        </record>
+        <record id="l10n_my_edi.einvois_client_secret_2" model="ir.config_parameter">
+            <field name="key">l10n_my_edi.einvois_client_secret_2</field>
+            <field name="value">D32zP7d04lfS9p0sgcrziUEyRhquLb5y</field>
+        </record>
+
+    </data>
+
+</odoo>
